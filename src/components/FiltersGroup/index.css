@@ -1,0 +1,143 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+
+.searchContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchInput {
+  width: 90%;
+  padding: 10px;
+  padding-left: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  outline: none;
+  border-width: 0px;
+  background-color: #f1f5f9;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.searchIcon {
+  background-color: #f1f5f9;
+  font-size: 19px;
+  padding: 10px;
+  box-sizing: content-box;
+  width: 5%;
+  padding-right: 15px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.categoryContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.categoryHeading {
+  font-family: roboto;
+  font-size: 22px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  padding-bottom: 0px;
+}
+
+.categoryList {
+  list-style: none;
+  padding-left: 2px;
+  margin-top: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.categoryPara {
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-family: roboto;
+  font-weight: 400;
+  color: #64748b;
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+.activeCategory {
+  color: #0967d2;
+  font-weight: 500;
+}
+
+.ratingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.ratingHeading {
+  font-family: roboto;
+  font-size: 22px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  padding-bottom: 0px;
+}
+
+.ratingButton {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-family: roboto;
+  font-weight: 400;
+  color: #64748b;
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ratingList {
+  padding-left: 0px;
+  list-style: none;
+}
+
+.activeRating {
+  color: #0967d2;
+  font-weight: 500;
+}
+
+.ratingImage {
+  height: 24px;
+  margin-right: 8px;
+}
+
+.clearFiltersButton {
+  padding: 6px;
+  font-family: roboto;
+  font-size: 14px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: 2px solid #0967d2;
+  border-radius: 5px;
+  color: #0967d2;
+  font-weight: 500;
+  background-color: transparent;
+  margin-bottom: 20px;
+  cursor: pointer;
+}

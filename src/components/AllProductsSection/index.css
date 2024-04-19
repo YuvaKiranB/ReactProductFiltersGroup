@@ -1,0 +1,102 @@
+.all-products-section {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .all-products-section {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .all-products-container {
+    margin-left: 30px;
+    width: 70%;
+  }
+}
+
+.products-heading {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .products-heading {
+    font-size: 32px;
+  }
+}
+
+.products-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .products-loader-container {
+    width: 70%;
+  }
+}
+
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+.noProductsContainer {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.noProductsImage {
+  width: 75%;
+}
+
+.noProductsHeading {
+  font-family: roboto;
+  font-size: 24px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.noProductsPara {
+  font-family: roboto;
+  font-size: 16px;
+  color: #475569;
+  text-align: center;
+}
+
+.productsFailureContainer {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.productsFailureImage {
+  width: 75%;
+}
+
+.productsFailureHeading {
+  font-family: roboto;
+  font-size: 24px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.productsFailurePara {
+  font-family: roboto;
+  font-size: 16px;
+  color: #475569;
+  text-align: center;
+}
